@@ -1,0 +1,71 @@
+.menuHeaderItem {
+    &__container {
+        position: relative;
+        z-index: 10;
+    }
+
+    &__title {
+        transition-duration: 200ms;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        opacity: 0.6;
+    }
+
+    &__title_active {
+        opacity: 1;
+    }
+
+    &__indicator {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: #fff;
+        margin-top: 5px;
+    }
+
+    &__image {
+        display: flex;
+        position: absolute;
+        top: -10px;
+        user-select: none;
+        pointer-events: none;
+        z-index: 1;
+        overflow: hidden;
+        left: -320px;
+        top: -75px;
+    }
+
+
+    &__image_active {
+        z-index: 20;
+        display: flex;
+        position: absolute;
+        left: -325px;
+        top: -75px;
+        opacity: 1;
+    }
+
+    &__text {
+        display: none;
+        opacity: 0;
+        text-transform: none;
+        font-size: 24px;
+        font-weight: 400;
+        width: 687px;
+        position: absolute;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    &__text_active {
+        opacity: 1;
+        width: 687px;
+        position: absolute;
+        text-transform: none;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}

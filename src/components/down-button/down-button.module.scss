@@ -1,0 +1,24 @@
+.downButton {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #23D3D1;
+    width: 277px;
+    height: 51px;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+    border: transparent;
+    text-transform: uppercase;
+    gap: 24px;
+    bottom: -25px;
+    z-index: 3;
+
+
+    img {
+        width: 27px;
+        height: 12px;
+    }
+}

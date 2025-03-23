@@ -1,0 +1,21 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  overflow-x: hidden;
+  font-weight: 400;
+}
+:root {
+  font-weight: 400;
+  font-family: "FuturaDemic", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+}
+@font-face {
+  font-family: "FuturaDemic";
+  src: local("FuturaDemic"),
+    url(./assets/fonts/futurabookc-webfont.woff) format("woff");
+}
+button {
+  cursor: pointer;
+}

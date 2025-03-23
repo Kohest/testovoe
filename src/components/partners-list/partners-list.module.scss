@@ -1,0 +1,47 @@
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 68px;
+    margin-bottom: 60px;
+
+    &__title {
+        color: #EB645A;
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+
+    &__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text {
+        margin-top: 60px;
+
+        color: #000;
+
+        p {
+            text-align: center;
+            font-size: 24px;
+            line-height: 30px;
+            margin: 0;
+        }
+    }
+
+    &__button {
+        margin-top: 30px;
+        background-color: #23D3D1;
+        border-radius: 15px;
+        border: transparent;
+        color: white;
+        font-weight: 600;
+        padding: 20px 90px;
+        text-transform: uppercase;
+    }
+}

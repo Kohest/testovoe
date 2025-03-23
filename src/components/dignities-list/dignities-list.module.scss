@@ -1,0 +1,21 @@
+.dignities {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 107px;
+
+    &__container {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        z-index: 2;
+    }
+
+}

@@ -1,0 +1,119 @@
+.banner {
+    display: flex;
+    align-items: center;
+    color: #000;
+    width: 100%;
+    margin-top: 100px;
+
+    @media (max-width: 900px) {
+        margin-top: 0;
+        background-color: #fff;
+    }
+
+    background-color: #EDEDEC;
+
+
+
+    &__container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 406px;
+        max-width: 1400px;
+        margin: auto;
+        width: 100%;
+
+        @media (max-width: 1500px) {
+            max-width: 1200px;
+        }
+
+        @media (max-width: 1300px) {
+            max-width: 800px;
+        }
+    }
+
+    &__imageContainer {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -290px;
+        right: 30px;
+
+        @media (max-width: 1300px) {
+            top: -120px;
+            right: 150px;
+        }
+    }
+
+    &__images {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 180px;
+        flex: 1;
+
+        @media (max-width: 850px) {
+            display: none;
+        }
+    }
+
+    &__image1 {
+        position: absolute;
+        background: url(/src/assets/images/phone3_1.png) no-repeat center center / cover;
+        width: 402px;
+        height: 797px;
+        left: 100px;
+        z-index: 3;
+        scale: 0.7;
+        top: -80px;
+
+        @media (max-width: 1300px) {
+            width: 251px;
+            height: 497px;
+            left: 200px;
+            top: -30px;
+        }
+    }
+
+    &__image2 {
+        position: absolute;
+        background: url(/src/assets/images/phone3_2.png) no-repeat center center / cover;
+        width: 349px;
+        height: 544px;
+        left: 350px;
+        z-index: 2;
+
+        @media (max-width: 1300px) {
+            width: 224px;
+            height: 372px;
+        }
+    }
+
+    &__text {
+        flex: 1;
+
+        @media (max-width: 850px) {
+            margin: 0 50px;
+            text-align: center;
+        }
+
+
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 32px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+}

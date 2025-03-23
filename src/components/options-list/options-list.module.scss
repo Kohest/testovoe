@@ -1,0 +1,9 @@
+.optionsContainer {
+    margin-top: 107px;
+    position: relative;
+    width: 100%;
+
+    @media (max-width: 1050px) {
+        display: none;
+    }
+}
